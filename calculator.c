@@ -33,5 +33,11 @@ int main()
       x = num1 - num2;
       printf("Subtraction = %ld", x);
       break;
+   case 3:
+      printf("Enter two numbers: \n");
+      scanf("%ld %ld", &num1, &num2);
+      x = num1 * num2;
+      printf("Product = %ld", x);
+      break;
    
 }
