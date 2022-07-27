@@ -61,7 +61,7 @@ int main()
       printf("Square = %ld", x);
       break;
    case 6:
-   return;
+   return 0;
    default: printf("\nError");
    }
 }
